@@ -7,9 +7,15 @@
     Shell.FlyoutBehavior="Disabled"
     Title="ExamenProgreso3">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+    Title="Buscar"
+    ContentTemplate="{DataTemplate local:BuscadorView}"
+ />
+        <ShellContent
+Title="Paises Consultados"
+    ContentTemplate="{DataTemplate local:ListadoView}"
+ />
+    </TabBar>
 
 </Shell>

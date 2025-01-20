@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenProgreso3.BuscadorView"
+             Title="Buscador de Paises">
+    <VerticalStackLayout Padding="20">
+        <Entry x:Name="scordova_txtBuscar" Placeholder="Ingrese el nombre del país" />
+        <Button x:Name="scordova_btnBuscar" Text="Buscar" />
+        <Button x:Name="scordova_btnLimpiar" Text="Limpiar" />
+        <Label x:Name="scordova_lblResultado" Text="Resultados aquí:" />
+    </VerticalStackLayout>
+</ContentPage>
